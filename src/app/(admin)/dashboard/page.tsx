@@ -1,6 +1,8 @@
 import React from 'react';
 
-export default function Dashboard() {
+export interface DashboardPageProps {}
+
+export default function Dashboard({}: DashboardPageProps) {
   return (
     <main>
       <h1 className="text-xl">Dashboard Page</h1>
